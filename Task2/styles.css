@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(9, 9, 15);
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 12px 8px;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+   letter-spacing: 0.6px;
+   border-radius: 5px;
+}
+.nav h2,.nav ul{
+    margin-top: 10px;   
+}
+.nav ul li a:hover{
+    background-color:  rgb(210, 86, 24);
+}
+.nav ul button{
+    background-color: rgb(210, 86, 24);
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.nav h2{
+    align-items: center;
+    letter-spacing: 0.6px;
+    padding: 12px 8px;
+    color: white;
+    margin-left: 10px;
+}
+.article{
+margin-top: 8%; 
+margin-bottom: -50px;
+}
+.article h3{   
+    text-align: center;
+    margin-left: 10px;
+    font-size: 28px;
+}
+.article h1{   
+     text-align: center;
+     margin-left: 10px;
+}
+.container{
+    min-height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.60)), url(internship.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff;
+}
+.content{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.content p{
+    margin-top: 15px;
+    font-size: 18px;
+    font-style: unset;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.highlight{
+    margin: 50px;
+}
+.highlight ul{
+    margin-left: 65px;
+}
+.highlight ul li{
+    margin-left: 25px;
+    font-size: 18px;
+
+}
+.button{
+    text-align: center;
+}
+.button h4{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.button button{
+      padding: 10px 20px;
+      background-color: chocolate;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      font-size: 18px;
+      margin-bottom: 15px;
+}
+
+footer{
+    background: #000;
+    color: white;
+}
+.contact-info{
+    text-align: center;
+    padding: 10px;
+}
+.contact-info h3,.contact-info p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
